@@ -1,0 +1,19 @@
+
+.nav {
+    margin: 0;
+    width: 100vw;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(69, 114, 167);
+    opacity: 0.7;
+}
+
+.nav-link {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+
+}

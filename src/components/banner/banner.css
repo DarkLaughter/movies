@@ -1,0 +1,15 @@
+
+.banner {
+    margin: 0;
+    width: 100vw;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://t3.ftcdn.net/jpg/02/20/30/62/360_F_220306297_TD787jOhUcM145Kwe985bzd7rRCQ0sUK.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    opacity: 0.5;
+}
+

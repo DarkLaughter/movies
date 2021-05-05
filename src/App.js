@@ -1,8 +1,13 @@
 import React from 'react'
+import Banner from './components/banner/banner.js'
+import Nav from './components/Nav/nav';
 
 const App = () => {
     return (
-        <h1>Hello</h1>
+        <>
+        <Banner/>
+        <Nav/>
+        </>
     )
 }
 
