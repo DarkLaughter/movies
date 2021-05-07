@@ -4,11 +4,11 @@ import './nav.css'
 
 const nav = () => {
     return (
-        <div className="nav">
+        <div>
       <nav>
         <ul>
         <li>
-            <NavLink to="/" >Welcome To Home Theater</NavLink>
+            <NavLink to="/" >Home</NavLink>
         </li>
         <li>
             <NavLink to="/Queque" > Queque </NavLink>
