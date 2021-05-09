@@ -1,14 +1,11 @@
 
 import Card from 'react-bootstrap/Card'
-import CardGroup from 'react-bootstrap/CardGroup'
-import CardDeck from 'react-bootstrap/CardDeck'
 import Button from 'react-bootstrap/Button'
 import React from 'react'
 
 const moviecard = () => {
     return (
-        <CardDeck style={{ padding: '20px'}} >
-        <Card border="light" style={{ width: '200px' }}>
+        <Card border="light" style={{ margin: '20px', padding: '20px', minWidth: "14rem", maxWidth: "18rem"}}>
             <Card.Img 
                 src="https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg" 
                 />
@@ -21,7 +18,6 @@ const moviecard = () => {
                 <Button variant="primary">Go somewhere</Button>
             </Card.Body>
         </Card>
-        </CardDeck>
     )
 }
 

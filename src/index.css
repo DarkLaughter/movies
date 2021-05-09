@@ -7,11 +7,13 @@ body {
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden; 
+    overflow-y: scroll;
     background-image: url(https://cdn.pixabay.com/photo/2020/04/20/18/10/cinema-5069314_960_720.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
+    background-attachment: fixed;
 }
 
 h1 {
