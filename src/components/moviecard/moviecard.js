@@ -5,7 +5,7 @@ import React from 'react'
 
 const moviecard = () => {
     return (
-        <Card border="light" style={{ margin: '20px', padding: '20px', minWidth: "14rem", maxWidth: "18rem"}}>
+        <Card border="light" style={{ margin: '20px', padding: '20px', minWidth: "14rem", maxWidth: "16rem"}}>
             <Card.Img 
                 src="https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg" 
                 />

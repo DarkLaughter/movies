@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const moviecards = () => {
     return (
-       <CardGroup style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly'}}>
+       <CardGroup style={{display: 'flex', flexDirection: 'row'}}>
            <Moviecard/>
            <Moviecard/>
            <Moviecard/>
