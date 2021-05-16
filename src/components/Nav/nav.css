@@ -18,17 +18,17 @@ nav {
     padding: 10px;
     border-radius: 10px;
     background-color: #C1B9AE;
+    -webkit-box-shadow: 5px 5px 15px 5px #38647D; 
+    box-shadow: 5px 5px 15px 5px #38647D;
+
   }
   
   nav ul li a {
-    color: #F9F3F4;
+    color: #2A29B2;
     text-decoration: none;
     
   }
   
   nav ul li a:hover {
-    padding: 15px;
-    border-radius: 10px;
-    color: #2A29B2;
-    background-color: #C1B9AE;
+    color: aliceblue;
   }

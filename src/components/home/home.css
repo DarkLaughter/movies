@@ -9,23 +9,13 @@
     overflow-y: scroll
 }
 
+.home h1 {
+    font-size: 56px;
+}
+
 p {
     font-size: 30px;
     text-align: center;
-}
-
-button { 
-    
-    background-color: aliceblue;
-    color: black;
-    margin: 10px;
-    font-size: 24px;
-}
-button:hover {
-    background-color: blue;
-    color: white;
-    margin: 10px;
-    font-size: 24px;
 }
 
 
@@ -34,6 +24,9 @@ p .btn {
     color: black;
     margin: 10px;
     font-size: 24px;
+
+    -webkit-box-shadow: 5px 5px 15px 5px #38647D; 
+    box-shadow: 5px 5px 15px 5px #38647D;
 }
 p .btn:hover {
     background-color: blue;

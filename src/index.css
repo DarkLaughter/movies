@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor&display=swap');
 
 body {
-    font-family: 'Girassol', cursive;
+    /* font-family: 'Girassol', cursive; */
+    font-family: 'Kdam Thmor', cursive;
     margin: 0;
     display: flex;
     justify-content: center;
