@@ -1,11 +1,13 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
+import Container from 'react-bootstrap/Container'
 
 const empty = () => {
     return (
+        <Container>
         <Card
-        bg="secondary"
-        text="secondary"
+        bg="light"
+        // text="secondary"
         style={{ width: '18rem' }}
         className="mb-2"
       >
@@ -18,6 +20,8 @@ const empty = () => {
           </Card.Text>
         </Card.Body>
       </Card>
+
+        </Container>
     )
 }
 
