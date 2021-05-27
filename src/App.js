@@ -4,7 +4,7 @@ import Banner from './components/banner/banner.js'
 import Nav from './components/Nav/nav';
 import Home from './components/home/home';
 import Moviecards from './components/moviecards/moviecards'
-import Empty from './components/Empty/empty'
+
 
 const App = () => {
     return (
@@ -14,7 +14,6 @@ const App = () => {
         <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/search" component={Moviecards} />
-            <Route exact path="/empty" component={Empty} />
         </Switch>
         </>
     )
